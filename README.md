@@ -18,7 +18,26 @@ You can **explore the live website** here:
 🔗 [https://malina.ro/](https://malina.ro/)
 
 The **source code** is available in the `bdproject` folder,  
-and the **complete documentation** — including system design, implementation details, and testing — can be found in the `documentation` folder.
+and the **complete documentation** including system design, implementation details, and testing can be found in the `documentation` folder.
 
 ---
+## Technologies Used
+
+The application was built using a modern and scalable web stack that ensures both performance and flexibility.  
+The main technologies and tools used include:
+
+- **Laravel (PHP Framework)**  
+- **MySQL**  
+- **HTML5, CSS3, JavaScript**  
+- **Bootstrap 5**  
+- **Vue.js**
+
+Additional integrations and libraries:
+- **FullCalendar.js**  
+- **SweetAlert** and **Toastr.js**  
+- **Stripe.js**  
+- **Pusher.js**  
+- **TensorFlow.js**
+
+
 
