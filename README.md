@@ -1,6 +1,7 @@
 # Cat Adoption Web Platform — Bachelor’s Thesis Project
+---
 
-## 🐾 Overview
+## Overview
 
 This project represents a **web application developed as part of my Bachelor's Thesis at Babeș-Bolyai University (FSEGA)**.  
 The platform was created to **simplify and encourage cat adoption in Romania**, offering a modern, interactive space where animal lovers can discover available cats, submit adoption requests, schedule visits, and share their own adoption stories.
@@ -19,5 +20,5 @@ You can **explore the live website** here:
 The **source code** is available in the `bdproject` folder,  
 and the **complete documentation** — including system design, implementation details, and testing — can be found in the `documentation` folder.
 
---
+---
 sss
