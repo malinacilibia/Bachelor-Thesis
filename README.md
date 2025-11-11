@@ -41,7 +41,7 @@ Additional integrations and libraries:
 
 ---
 
-##  Application Features
+## Application Features
 
 The Cat Adoption Web Platform integrates several essential modules that make the adoption process easy, transparent, and interactive.  
 Below are the main functionalities and their corresponding interface screenshots.
@@ -51,82 +51,81 @@ The home page welcomes users with a clean and friendly design.
 It provides quick navigation to available cats, user accounts, notifications, and the favorites list.  
 Interactive cards guide visitors toward the main sections of the platform.
 
-![Home Page](../screenshots/pag_principala.png)
+![Home Page](screenshots/pag_principala.png)
 
-
+---
 
 ### 2. Adoption Form  
 The adoption form allows users to fill out all required details for adopting a cat.  
 Each field includes validation rules, and users receive instant feedback for incorrect or missing inputs.  
 After submission, the form data is processed and stored securely in the database.
 
-![Adoption Form](../screenshots/formular_adoptie.png)
+![Adoption Form](screenshots/formular_adoptie.png)
 
-
+---
 
 ### 3. Appointment Scheduling  
 Users can schedule their adoption visits directly through an interactive calendar built with **FullCalendar.js**.  
 Unavailable days (weekends and past dates) are automatically disabled, and users can select only valid dates and times.
 
-![Appointment Calendar](../screenshots/calendar_programari.png)
+![Appointment Calendar](screenshots/calendar_programari.png)
 
-
+---
 
 ### 4. My Requests  
 In this section, users can view all their submitted adoption requests, including details and current status.  
 They can track approvals, see rejection reasons if applicable, and stay updated about their progress.
 
-![My Requests](../screenshots/cererile_mele.png)
+![My Requests](screenshots/cererile_mele.png)
 
-
+---
 
 ### 5. Donations  
 The donation system enables secure payments via **Stripe**, supporting shelter operations.  
 Users can donate preset or custom amounts, and successful donations trigger confirmation emails.  
 A progress bar displays how close the shelter is to reaching its financial goal.
 
-![Donations Page](../screenshots/donatii.png)
+![Donations Page](screenshots/donatii.png)
 
-
+---
 
 ### 6. Adoption Stories  
 Users can share personal adoption experiences and view stories from other adopters.  
 Each story is reviewed by administrators before being published, building community trust and inspiration.
 
-![Adoption Stories](../screenshots/povesti_de_adoptie.png)
+![Adoption Stories](screenshots/povesti_de_adoptie.png)
 
-
+---
 
 ### 7. Notifications  
 The platform includes **real-time notifications** powered by **Pusher** and **Toastr.js**.  
 Users are instantly informed about adoption approvals, appointment updates, and reminders.  
 Notifications can be viewed directly in pop-up form or from the dedicated dropdown menu.
 
-![Notifications Pop-up](../screenshots/notificari.png)  
-![Notifications Dropdown](../screenshots/notificari2.png)
+![Notifications Pop-up](screenshots/notificari.png)  
+![Notifications Dropdown](screenshots/notificari2.png)
 
-
+---
 
 ### 8. Admin Dashboard  
 Administrators have access to a complete dashboard where they can monitor activity, manage users, and analyze statistics.  
 Interactive graphs (built with **Chart.js**) display monthly adoption and appointment data for better insights.
 
-![Admin Dashboard](../screenshots/admin_panel.png)
+![Admin Dashboard](screenshots/admin_panel.png)
 
-
+---
 
 ### 9. Adoption Requests Management (Admin)  
 From this section, administrators can view, approve, or reject user adoption requests.  
 Each decision automatically triggers a personalized notification and updates the request’s status in real time.
 
-![Adoption Requests Management](../screenshots/gestionare_cereri_adoptie.png)
+![Adoption Requests Management](screenshots/gestionare_cereri_adoptie.png)
 
-
+---
 
 ### 10. Appointment Management (Admin)  
 Administrators can manage appointments efficiently — approving, canceling, or marking them as completed.  
 After successful adoptions, the system automatically sends users a PDF adoption certificate by email.
 
-![Appointment Management](../screenshots/gestionare_programari.png)
-
+![Appointment Management](screenshots/gestionare_programari.png)
 
