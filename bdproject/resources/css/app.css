@@ -1,0 +1,30 @@
+.bg-mint {
+    background-color: #cce5cc;
+}
+
+.text-green {
+    color: #2d6a4f;
+}
+
+.border-green {
+    border-color: #5eb489 !important;
+}
+
+.highlight-banner {
+    background-color: #adebb3;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.step-number {
+    background-color: #f4b183;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.step-icon {
+    width: 60px;
+}
