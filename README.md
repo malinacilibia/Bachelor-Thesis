@@ -143,9 +143,36 @@ Data preprocessing was handled through a custom Keras generator that resized, no
 For training, the **MobileNetV2** architecture was used with fine-tuning, achieving a final accuracy of **97.8%** on the validation set after 30 epochs.  
 The model was then converted to **TensorFlow.js** format to run directly in the browser for instant predictions, without requiring server processing.
 
-In the admin panel, users can drag and drop an image, and the AI instantly predicts the cat’s breed — for example, “Siamese.”  
+In the admin panel, users can drag and drop an image, and the AI instantly predicts the cat’s breed, for example, “Siamese.”  
 This functionality was implemented using the `@tensorflow/tfjs` library, which loads and executes the trained model in real time.
 
 ![AI Breed Recognition](screenshots/inteligenta_artificiala.png)
 
+---
 
+## How to Run the Project
+
+The full source code of the web application is located in the **`bdproject/`** folder.  
+The AI model files (TensorFlow.js format) are located in /public/models/.
+
+To explore or run it locally:
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/malinacilibia/Bachelor-Thesis.git
+
+1. Open the project folder:
+   ```bash
+   cd Bachelor-Thesis/bdproject
+
+1. Start a local Laravel server (using XAMPP, WAMP, or Artisan):
+   ```bash
+   php artisan serve
+
+1. Access the application at:
+   ```bash
+   http://localhost:8000
+
+Live Demo: 
+```bash
+   https://malina.ro/
