@@ -124,8 +124,28 @@ Each decision automatically triggers a personalized notification and updates the
 
 
 ### 10. Appointment Management (Admin)  
-Administrators can manage appointments efficiently — approving, canceling, or marking them as completed.  
+Administrators can manage appointments efficiently approving, canceling, or marking them as completed.  
 After successful adoptions, the system automatically sends users a PDF adoption certificate by email.
 
 ![Appointment Management](screenshots/gestionare_programari.png)
+
+---
+
+## AI Integration — Cat Breed Recognition
+
+One of the most innovative parts of this project is the integration of **artificial intelligence** for cat breed recognition.  
+This feature allows administrators to upload a photo of a cat, and the system automatically identifies its breed in real time.  
+It simplifies the process of adding new cats for adoption, especially when the breed is not known.
+
+The AI model was trained in **Google Colab** using the **Oxford-IIIT Pet Dataset** (37 classes of cats and dogs, with over 7,000 images).  
+Data preprocessing was handled through a custom Keras generator that resized, normalized, and encoded images for classification.
+
+For training, the **MobileNetV2** architecture was used with fine-tuning, achieving a final accuracy of **97.8%** on the validation set after 30 epochs.  
+The model was then converted to **TensorFlow.js** format to run directly in the browser for instant predictions, without requiring server processing.
+
+In the admin panel, users can drag and drop an image, and the AI instantly predicts the cat’s breed — for example, “Siamese.”  
+This functionality was implemented using the `@tensorflow/tfjs` library, which loads and executes the trained model in real time.
+
+![AI Breed Recognition](screenshots/inteligenta_artificiala.png)
+
 
