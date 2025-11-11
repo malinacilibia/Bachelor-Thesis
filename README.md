@@ -68,7 +68,7 @@ After submission, the form data is processed and stored securely in the database
 Users can schedule their adoption visits directly through an interactive calendar built with **FullCalendar.js**.  
 Unavailable days (weekends and past dates) are automatically disabled, and users can select only valid dates and times.
 
-![Appointment Calendar](screenshots/calendar_programari.png)
+![Appointment Calendar](screenshots/calendar%20programari.png)
 
 
 
